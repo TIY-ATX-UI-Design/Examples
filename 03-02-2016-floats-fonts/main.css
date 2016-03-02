@@ -1,0 +1,70 @@
+
+.left-sidebar {
+	width: 50%;
+	background-color: blue;
+	float: right;
+}
+
+img {
+	width: 25%;
+	float: left;
+}
+
+p {
+	color: white;
+}
+
+.inner-box {
+	height: 2em;
+	clear: left;
+	background-color: aqua;
+}
+
+.right-sidebar {
+	height: 10em;
+	width: 30%;
+	background-color: red;
+	float: right;
+}
+
+.sidebar-three {
+	height: 10em;
+	background-color: #bada55;
+	clear: right;
+}
+
+.parent {
+	background-color: pink;
+	padding: 1em;
+	overflow: hidden;
+}
+
+.parent2 {
+	height: 2em;
+	background-color: green;
+}
+
+.child {
+	width: 50%;
+	background-color: blue;
+	height: 10em;
+	float: left;
+}
+
+ul {
+	list-style: none;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+}
+
+li {
+	display: inline-block;
+	margin: 1em;
+}
+
+.panda {
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+}
