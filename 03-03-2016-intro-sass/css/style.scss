@@ -1,0 +1,32 @@
+@import 'variables';
+
+ul {
+
+	background-color: #666;
+	li {
+		background-color: $primary-color;
+
+		&:first-child {
+			background-color: pink;
+
+			a {
+				color: $primary-color;
+			}
+		}
+		
+	}
+}
+
+//This is a comment
+
+.button {
+	background-color: #bada55;
+	padding: 1em;
+	color: white;
+
+	&:hover {
+		background-color: mix(red, white);
+	}
+}
+
+

@@ -1,0 +1,28 @@
+ul {
+    background-color: #666;
+}
+
+ul li {
+    background-color: green;
+}
+
+ul li:first-child {
+    background-color: pink;
+}
+
+ul li:first-child a {
+    color: green;
+}
+
+.button {
+    background-color: #bada55;
+    padding: 1em;
+    color: white;
+}
+
+.button:hover {
+    background-color: #ff8080;
+}
+
+
+/*# sourceMappingURL=style.css.map */
