@@ -1,0 +1,88 @@
+.header {
+	color: blue;
+}
+
+.main-text {
+	color: red;
+}
+
+.price-wrapper > div {
+	width: 30%;
+	height: 10em;
+}
+
+.price-wrapper div:first-child {
+	background-color: red;
+}
+
+.price-wrapper div:first-child ~ div {
+	background-color: blue;
+}
+
+.price-wrapper div:last-child {
+	background-color: #bada55;
+}
+
+.price-wrapper {
+	div {
+		width: 30%;
+		height: 10em;
+		&:first-child {
+
+		}
+	}
+}
+
+header a {
+	padding: 2em;
+	background-color: pink;
+}
+
+header a:active {
+	background-color: blue;
+}
+
+header a:focus {
+	background-color: yellow;
+}
+
+header a:before {
+	content: '>';
+}
+
+header a:after {
+	content: url('../images/icon.png');
+}
+
+.header {
+	background-color: red;
+}
+
+.outer-box {
+	height: 20em;
+	background-color: black;
+	z-index: 1;
+}
+
+.inner-box {
+	height: 10em;
+	background-color: red;
+	width: 10em;
+	position: fixed;
+	top: 20em;
+	left: 20em;
+	z-index: -1;
+}
+
+.inner-box2 {
+	height: 10em;
+	background-color: yellow;
+	width: 10em;
+}
+
+p {
+	font-size: 2em;
+	-webkit-font-size: 2rem;
+	-moz-font-size: 2rem;
+	-o-font-size: 4rem;
+}
