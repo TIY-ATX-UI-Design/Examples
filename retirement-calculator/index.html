@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Retirement Calculator</title>
+	</head>
+	<body>
+
+	<div>
+		<h1>What is your current age?<span id="currentAge"></span></h1>
+		<h1>At what age would you like to retire?<span id="retirementAge"></span></h1>
+		<h1>You have <span id="yearsLeft"></span> years left until you can retire.</h1>
+		<h1>It's <span id="currentYear"></span>, so you can retire in <span id="retirementYear"></span>. </h1>
+		
+	</div>
+
+	<script>
+		var currentAge = prompt('What is your current age?');
+		var retirementAge = prompt('What age do you want to retire?');
+		var yearsLeftToRetirement = retirementAge - currentAge;
+		var currentDate = new Date().getFullYear();
+		var yearOfRetirement = currentDate + yearsLeftToRetirement;
+		//var abby = '20' + ' ' + '20';
+		console.log(currentAge);
+		console.log(retirementAge);
+		console.log(yearsLeftToRetirement);
+		console.log(currentDate);
+		console.log(yearOfRetirement);
+
+		document.getElementById('currentAge').innerHTML = ' ' + currentAge;
+		document.getElementById('retirementAge').innerHTML = ' ' + retirementAge;
+		document.getElementById('yearsLeft').innerHTML = ' ' + yearsLeftToRetirement;
+		document.getElementById('currentYear').innerHTML = ' ' + currentDate;
+		document.getElementById('retirementYear').innerHTML = ' ' + yearOfRetirement;
+	</script>
+	</body>
+</html>
