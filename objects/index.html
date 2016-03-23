@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Retirement Calculator</title>
+    <style>
+    .wrapper {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    input {
+        width: 100%;
+        margin-bottom: 1em;
+        padding: 0.5em;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+    </div>
+    <script>
+    (function(){
+    	
+        // console.log(2 == 2);
+        // console.log(2 == "1" + "1");
+        // console.log("1 + 1");
+        // console.log(2 === "2");
+        // console.log(Austin.state.length);
+        // console.log(typeof(Austin.move));
+
+        var austin = {
+            state: 'Texas',
+            weather: ['windy', 'hot', 'dry'],
+            move: false,
+            tacoTrucks: 1000,
+            population: 885400
+        }
+
+        var sanAntonio = {
+            state: 'Texas',
+            weather: ['windy', 'hot', 'dry'],
+            move: false,
+            tacoTrucks: 800,
+            population: 1409000
+        }
+        
+        var dallas = {
+            state: 'Texas',
+            weather: ['windy', 'hot', 'dry'],
+            move: true,
+            tacoTrucks: 500,
+            population: 1258000
+        }
+
+        var cities = [austin, sanAntonio, dallas];
+
+        //var cities = ['San Antonio', 'Houston', 'Dallas', 'El Paso', 'Marfa'];
+
+        for(var i = 0; i < cities.length; i++){
+            if(cities[i].population > 1000000){
+                console.log(cities[i]);
+            }
+        }
+
+        // console.log(austin.weather);
+        // console.log(cities[0]);
+
+
+
+    })();
+    </script>
+</body>
+
+</html>

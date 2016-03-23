@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Retirement Calculator</title>
+    <style>
+    .form-wrapper {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    input {
+        width: 100%;
+        margin-bottom: 1em;
+        padding: 0.5em;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <form action="">
+            <input type="text" placeholder="Noun" data-ui="noun" />
+            <input type="text" placeholder="Verb" data-ui="verb" />
+            <input type="text" placeholder="Adj" data-ui="adj" />
+            <input type="text" placeholder="Adverb" data-ui="adv" />
+            <input type="submit" value="Submit" />
+        </form>
+        <p>Whenever I try to make the <span data-ui="adj-span">stupid</span> <span data-ui="noun-span">apple tv</span> <span data-ui="verb-span">work</span>. It dies <span data-ui="adv-span">slowly</span>.</p>
+    </div>
+    <script>
+    (function(){
+    	var noun = document.querySelector("[data-ui='noun']");
+	    var verb = document.querySelector("[data-ui='verb']");
+	    var adjective = document.querySelector("[data-ui='adj']");
+	    var adverb = document.querySelector("[data-ui='adv']");
+	    var makeMadlib = document.querySelector("[type='submit']");
+
+	    var nounSpan = document.querySelector("[data-ui='noun-span']");
+	    var adjSpan = document.querySelector("[data-ui='adj-span']");
+	    var verbSpan = document.querySelector("[data-ui='verb-span']");
+	    var advSpan = document.querySelector("[data-ui='adv-span']");
+
+	    makeMadlib.addEventListener('click', function(event) {
+	        event.preventDefault();
+	        adjSpan.innerHTML = adjective.value;
+	        nounSpan.innerHTML = noun.value;
+	        verbSpan.innerHTML = verb.value;
+	        advSpan.innerHTML = adverb.value;
+	    });
+    })();
+    </script>
+</body>
+
+</html>
