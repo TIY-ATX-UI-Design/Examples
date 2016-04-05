@@ -1,0 +1,150 @@
+$tot-width: 100%;
+$num-col: 12;
+$gut-width: 2%;
+
+$ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
+
+@mixin grid($geezy){
+  width: ($geezy * $ind-col-width) + ($gut-width * ($geezy - 1));
+  float: left;
+  margin-right: $gut-width;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  background-color: red;
+  padding: 2em 1em;
+}
+
+.row {
+  overflow: hidden;
+  margin: 2em 0; }
+
+.col {
+  height: 2em;
+  background-color: #bada55;
+  margin-bottom: 1em; }
+
+.left-sidebar, .right-sidebar {
+  height: 40em;
+  background-color: teal;
+  padding: 1em;
+}
+
+.main-content {
+  height: 100em;
+  background-color: yellow;
+}
+
+.left-top-content {
+  background-color: white;
+}
+
+.left-bottom-content {
+  height: 10em;
+  background-color: white;
+}
+
+.cover-image {
+  background-color: blue;
+  height: 4em;
+}
+
+.followers {
+  background-color: white;
+  padding: 2em;
+}
+
+// .followers .content {
+//   color: blue;
+// }
+
+// .followers .content p {
+//   font-size: 2em;
+// }
+
+// .followers .content p:first-child {
+//   background-color: red;
+// }
+
+
+
+.followers {
+  p {
+    &:first-child {
+      color:blue;
+    }
+  }
+  .content {
+    background-color: blue;
+    p {
+      color: white;
+      &:first-child {
+        color: green;
+      }
+      &.number {
+        color: pink;
+      }
+    }
+  } 
+
+}
+
+.content2 {
+    p {
+      background-color: red;
+    }
+  }
+
+@media (min-width: 650px){
+  .col {
+    margin-bottom: 0;
+  }
+  .col-1 {
+    @include grid(1);
+  }
+
+  .col-2 {
+    @include grid(2);
+  }
+
+  .col-3 {
+    @include grid(3);
+  }
+
+  .col-4 {
+     @include grid(4);
+  }
+  
+  .col-5 {
+     @include grid(5);
+  }
+  .col-6 {
+     @include grid(6);
+  }
+  .col-7 {
+     @include grid(7);
+  }
+  .col-8 {
+     @include grid(8);
+  }
+  .col-9 {
+     @include grid(9);
+  }
+  .col-10 {
+     @include grid(10);
+  }
+  .col-11 {
+     @include grid(11);
+  }
+  .col-12 {
+     @include grid(12);
+  }
+}

@@ -1,0 +1,139 @@
+p {
+  margin: 0; }
+
+.row {
+  overflow: hidden;
+  margin: 2em 0; }
+
+.col {
+  height: 2em;
+  background-color: #bada55;
+  margin-bottom: 1em; }
+
+.left-sidebar, .right-sidebar {
+  height: 40em;
+  background-color: teal;
+  padding: 1em; }
+
+.main-content {
+  height: 100em;
+  background-color: yellow; }
+
+.left-top-content {
+  background-color: white; }
+
+.left-bottom-content {
+  height: 10em;
+  background-color: white; }
+
+.cover-image {
+  background-color: blue;
+  height: 4em; }
+
+.followers {
+  background-color: white;
+  padding: 2em; }
+
+.followers p:first-child {
+  color: blue; }
+.followers .content {
+  background-color: blue; }
+  .followers .content p {
+    color: white; }
+    .followers .content p:first-child {
+      color: green; }
+    .followers .content p.number {
+      color: pink; }
+
+.content2 p {
+  background-color: red; }
+
+@media (min-width: 650px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: 0; }
+
+  .col-2 {
+    width: 15%;
+    float: left;
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: 0; }
+
+  .col-3 {
+    width: 23.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: 0; }
+
+  .col-4 {
+    width: 32%;
+    float: left;
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: 0; }
+
+  .col-5 {
+    width: 40.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: 0; }
+
+  .col-6 {
+    width: 49%;
+    float: left;
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: 0; }
+
+  .col-7 {
+    width: 57.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: 0; }
+
+  .col-8 {
+    width: 66%;
+    float: left;
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: 0; }
+
+  .col-9 {
+    width: 74.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: 0; }
+
+  .col-10 {
+    width: 83%;
+    float: left;
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: 0; }
+
+  .col-11 {
+    width: 91.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: 0; }
+
+  .col-12 {
+    width: 100%;
+    float: left;
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */

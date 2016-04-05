@@ -1,0 +1,21 @@
+a {
+  padding: 1em;
+  margin: 5em;
+  background-color: red;
+  display: inline-block;
+  transform: rotate(90deg);
+  animation: buttonHover 5s ease-in-out infinite; }
+
+@keyframes buttonHover {
+  0% {
+    background-color: red;
+    transform: rotate(90deg) translate(0px, 0px); }
+  50% {
+    background-color: yellow; }
+  75% {
+    background-color: blue; }
+  100% {
+    background-color: red;
+    transform: rotate(180deg) translate(400px, 0px); } }
+
+/*# sourceMappingURL=style.css.map */
