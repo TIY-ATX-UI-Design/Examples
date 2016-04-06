@@ -15,92 +15,179 @@
   height: 100px;
   background-color: blue; }
 
+.col-1, .col-2 {
+  width: 100%; }
+
 @media (min-width: 650px) {
   .col {
     margin-bottom: 0; }
 
-  .col-1 {
+  .col-1-md {
     width: 6.5%;
     float: left;
     margin-right: 2%; }
-    .col-1:last-child {
+    .col-1-md:last-child {
       margin-right: 0; }
 
-  .col-2 {
+  .col-2-md {
     width: 15%;
     float: left;
     margin-right: 2%; }
-    .col-2:last-child {
+    .col-2-md:last-child {
       margin-right: 0; }
 
-  .col-3 {
+  .col-3-md {
     width: 23.5%;
     float: left;
     margin-right: 2%; }
-    .col-3:last-child {
+    .col-3-md:last-child {
       margin-right: 0; }
 
-  .col-4 {
+  .col-4-md {
     width: 32%;
     float: left;
     margin-right: 2%; }
-    .col-4:last-child {
+    .col-4-md:last-child {
       margin-right: 0; }
 
-  .col-5 {
+  .col-5-md {
     width: 40.5%;
     float: left;
     margin-right: 2%; }
-    .col-5:last-child {
+    .col-5-md:last-child {
       margin-right: 0; }
 
-  .col-6 {
+  .col-6-md {
     width: 49%;
     float: left;
     margin-right: 2%; }
-    .col-6:last-child {
+    .col-6-md:last-child {
       margin-right: 0; }
 
-  .col-7 {
+  .col-7-md {
     width: 57.5%;
     float: left;
     margin-right: 2%; }
-    .col-7:last-child {
+    .col-7-md:last-child {
       margin-right: 0; }
 
-  .col-8 {
+  .col-8-md {
     width: 66%;
     float: left;
     margin-right: 2%; }
-    .col-8:last-child {
+    .col-8-md:last-child {
       margin-right: 0; }
 
-  .col-9 {
+  .col-9-md {
     width: 74.5%;
     float: left;
     margin-right: 2%; }
-    .col-9:last-child {
+    .col-9-md:last-child {
       margin-right: 0; }
 
-  .col-10 {
+  .col-10-md {
     width: 83%;
     float: left;
     margin-right: 2%; }
-    .col-10:last-child {
+    .col-10-md:last-child {
       margin-right: 0; }
 
-  .col-11 {
+  .col-11-md {
     width: 91.5%;
     float: left;
     margin-right: 2%; }
-    .col-11:last-child {
+    .col-11-md:last-child {
       margin-right: 0; }
 
-  .col-12 {
+  .col-12-md {
     width: 100%;
     float: left;
     margin-right: 2%; }
-    .col-12:last-child {
+    .col-12-md:last-child {
+      margin-right: 0; } }
+@media (min-width: 800px) {
+  .col-1-lg {
+    width: 6.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-1-lg:last-child {
+      margin-right: 0; }
+
+  .col-2-lg {
+    width: 15%;
+    float: left;
+    margin-right: 2%; }
+    .col-2-lg:last-child {
+      margin-right: 0; }
+
+  .col-3-lg {
+    width: 23.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-3-lg:last-child {
+      margin-right: 0; }
+
+  .col-4-lg {
+    width: 32%;
+    float: left;
+    margin-right: 2%; }
+    .col-4-lg:last-child {
+      margin-right: 0; }
+
+  .col-5-lg {
+    width: 40.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-5-lg:last-child {
+      margin-right: 0; }
+
+  .col-6-lg {
+    width: 49%;
+    float: left;
+    margin-right: 2%; }
+    .col-6-lg:last-child {
+      margin-right: 0; }
+
+  .col-7-lg {
+    width: 57.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-7-lg:last-child {
+      margin-right: 0; }
+
+  .col-8-lg {
+    width: 66%;
+    float: left;
+    margin-right: 2%; }
+    .col-8-lg:last-child {
+      margin-right: 0; }
+
+  .col-9-lg {
+    width: 74.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-9-lg:last-child {
+      margin-right: 0; }
+
+  .col-10-lg {
+    width: 83%;
+    float: left;
+    margin-right: 2%; }
+    .col-10-lg:last-child {
+      margin-right: 0; }
+
+  .col-11-lg {
+    width: 91.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-11-lg:last-child {
+      margin-right: 0; }
+
+  .col-12-lg {
+    width: 100%;
+    float: left;
+    margin-right: 2%; }
+    .col-12-lg:last-child {
       margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example</title>
+	<style>
+		main {
+			background-color: teal;
+		}
+		h1 {
+			padding: 2000px 0;
+		}
+		.woohoo {
+			color: red;
+			transition: color 2s;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Wohoo!</h1>
+	</main>
+</body>
+</html>
+
+<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+<script>
+	function message(name, adjective){
+	  document.write('Hello ' + name + '. It is ' + adjective + ' outside.');
+	}
+
+	message('Jenna', 'beautiful');
+
+
+	// $(window).resize(function(){
+	//   message('Amalie', 'hot');
+	// });
+
+	// $('body').click(function(){
+	// 	$('ul li a').css('')
+	// });
+
+	$(window).scroll(function(){
+		if($(window).scrollTop() > 1000){
+			$('h1').addClass('woohoo');
+		}
+	});
+
+	var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'black', 'white', 'rebeccapurple', 'teal'];
+
+	var randomNumber = Math.floor(Math.random()*10);
+
+
+	for(var i = 0; i < colors.length; i++){
+		// console.log(colors[i]);
+		if (randomNumber === i){
+			$('main').css('background-color', colors[i]);
+		}
+	}
+
+
+</script>

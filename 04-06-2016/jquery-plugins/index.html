@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using a Grid</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="owl-carousel">
+	  <div> <img src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/cat-adult-landing-hero.ashx"> </div>
+	  <div> <img src="http://media4.popsugar-assets.com/files/2014/08/08/878/n/1922507/caef16ec354ca23b_thumb_temp_cover_file32304521407524949.xxxlarge/i/Funny-Cat-GIFs.jpg"> </div>
+	  <div> <img src="http://www.cats.org.uk/uploads/images/pages/photo_latest14.jpg"> </div>
+	  <div> <img src="http://www.cats.org.uk/uploads/images/pages/photo_latest14.jpg"> </div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $(".owl-carousel").owlCarousel({
+		  	nav: true,
+		  	lazyLoad: true
+		  });
+		});
+	</script>
+</body>
+</html>
